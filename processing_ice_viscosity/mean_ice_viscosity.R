@@ -4,7 +4,10 @@
 library(sf)
 
 # Specify the path to the input CSV file containing ice viscosity data
+# Also found in the HPC at ~/projects/AP_500res_bckp_almost_ready/1st/geometries/10059/ice_viscosity.dat
+
 s_path = "~/Desktop/hpc_10059_AP_500res/ice_viscosity_short.csv"
+
 
 # Specify the path for the output shapefile
 out_s = "~/Desktop/hpc_10059_AP_500res/test.shp"
